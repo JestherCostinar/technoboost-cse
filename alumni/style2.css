@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #FFD700;
+  font-family: 'Josefin Sans', sans-serif;
+ 
+}
+
+.wrapper{
+  margin-top: 0.7%;
+}
+.wrapper1{
+  margin-top: 0.7%;
+}
+
+.wrapper h1{
+  font-family: x-locale-heading-primary,zillaslab,Palatino,"Palatino Linotype",x-locale-heading-secondary,serif;
+  font-size: 52px;
+ 
+  text-align: center;
+  background-color: #f5a425;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: rgba(22,34,57,0.95);
+margin-top: 13px;  
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+  margin-top: 70px;
+ 
+}
+
+.team .team_member h3{
+  color: black;
+  font-size: 26px;
+  margin-top: 50px;
+  font-family: x-locale-heading-primary,zillaslab,Palatino,"Palatino Linotype",x-locale-heading-secondary,serif;
+}
+
+.team .team_member p.role{
+  color: black;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #f5a425;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+.team1{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: rgba(22,34,57,0.95);
+  margin-top: -12px;   
+}
+
+.team1 .team_member1{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+  margin-top: 70px;
+ 
+}
+.team .team_member p{
+	color: rgba(22,34,57,0.95);
+}
+.team1 .team_member1 p{
+	color: rgba(22,34,57,0.95);
+	
+
+}
+
+.team1 .team_member1 h3{
+  color: black;
+  font-size: 26px;
+  margin-top: 50px;
+  font-family: x-locale-heading-primary,zillaslab,Palatino,"Palatino Linotype",x-locale-heading-secondary,serif;
+}
+
+.team1 .team_member1 p.role{
+  color: black;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #f5a425;
+  
+}
+
+.team1 .team_member1 .team_img1{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team1 .team_member1 .team_img1 img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
