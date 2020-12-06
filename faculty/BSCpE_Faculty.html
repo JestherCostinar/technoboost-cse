@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+.header {
+      
+      padding: 150px;
+}
+.box-container{
+ display:flex;
+ justify-content:space-between;
+}
+.box-1,.box-2,.box-3{
+ width: 300px;
+ height:350px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+ margin: 0px 4px;
+ 
+}
+.box-1{
+ background-color: gold;
+ width: 500px;
+ text-align: center;
+}
+.box-2{
+ background-color: gold;
+ width: 500px;
+ text-align: left;
+}
+.box-3{
+ background-color: white;
+}
+.box-1 span,
+.box-2 span,
+.box-3 span{
+ width:0px;
+ height:0px;
+ border-radius:50%;
+ background-color:#ffffff;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ font-family: calibri;
+ font-weight: bold;
+}
+.box-1 p:nth-child(2),
+.box-2 p:nth-child(2),
+.box-3 p:nth-child(2){
+ color:#FFFFFF;
+ font-family: calibri;
+ font-size: 23px;
+ line-height:0px;
+}
+.box-1 p:nth-child(3),
+.box-2 p:nth-child(3),
+.box-3 p:nth-child(3){
+ font-family: calibri;
+ color:#8F8F8F;
+ text-align:center;
+ width: 230px;
+ margin:0px 0px 20px 0px;
+}
+.box-1 button,
+.box-2 button,
+.box-3 button{
+ width:100px;
+ height:30px;
+ background-color: white;
+ border:none;
+ outline: none;
+ border-radius:5px;
+}
+
+.dept__title{
+      margin: 23px auto;
+      font-size: 30px;
+      color: navy;
+      width: 100%;
+      text-align: center;
+    }
+
+.faculty{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-family: calibri;
+      color: #152d65;
+}
+
+.container1{
+      width: 300px;
+      height: 300px;
+      text-align: center;
+      margin: 0 40px;
+}
+
+.container__img{
+      width: 200px;
+      height: 200px;
+      border: 6px solid #f5a425;
+      margin: 15px auto;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+h6{
+    color: #f5a425;
+    text-align: center;
+}
+</style>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, 
+
+shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?
+
+family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>BSCpE | Faculty</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" 
+
+rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+  </head>
+
+<body>
+  
+   
+  <!--header-->
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+    
+      <a href="#" style="font-size: 20px"><img src="assets/images/JRU Logo.png" height="50px" width="50px"><em>&nbsp;José Rizal University</em> CSE</a>
+    </div>
+  <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a href="../index.html">Home</a></li>
+        <li class="has-submenu"><a href="#MissionVision">About Us</a>
+          <ul class="sub-menu">
+       <li><a href="../index.html#MissionVision">Mission & Vision</a></li>
+        <li><a href="../index.html#HistorySection">History</a></li>
+        <li><a href="../index.html#FAQ">FAQ</a></li>
+       <li><a href="../index.html#Contacts">Contacts</a></li>
+          </ul>
+        </li>
+<li class="has-submenu"><a href="BSIT_Faculty.html">Faculties</a>
+          		<ul class="sub-menu">
+            		<li><a href="BSCpE_Faculty.html">BSCpE Faculty</a></li>
+           		 	<li><a href="BSEcE_Faculty.html">BSEcE Faculty</a></li>
+			 		<li><a href="BSIT_Faculty.html">BSIT Faculty</a></li>
+				</ul>
+        	</li>
+       <li class="has-submenu"><a href="../news/news.html">News & Events</a>
+          <ul class="sub-menu">
+            <li><a href="../announcement/announcement.html">Announcements</a></li>
+            <li><a href="../news/news.html">News & Articles</a></li>
+       <li><a href="#section14">Events</a></li>
+          </ul>
+        </li>
+      <li class="has-submenu"><a href="../alumni/achievements.html">Alumni</a>
+          <ul class="sub-menu">
+            <li><a href="../alumni/achievements.html">Achievements</a></li>
+            <li><a href="../officers/CSE_OFFICERS.html">CSE Officers</a></li>
+          </ul>
+        </li>
+<li class="has-submenu"><a href="lib/LibraryServices.html">Library</a>
+				<ul class="sub-menu">
+					<li><a href="research/ResearchCostinar.html">Journal</a></li>
+            		<li><a href="research/ResearchCostinar.html">Faculty</a></li>
+				 	<li><a href="cseprojects/Projects.html">Projects of CSE</a></li>
+				</ul>
+        	</li>
+ <li class="has-submenu"><a href="../JOBS/BSIT.html">CareerJobs</a>
+			<ul class="sub-menu">
+				 <li><a href="../JOBS/BSIT.html">BSIT</a></li>
+              			  <li><a href="../JOBS/BSCPE.html">BSCpE</a></li>
+				<li><a href="../JOBS/BSEMC.html">BSEMC</a></li>
+				<li><a href="../JOBS/BSECE.html">BSEcE</a></li>
+          </ul>
+     
+		  </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ***** Main Banner Area Start ***** -->
+    <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="assets/images/Jose Rizal University.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="caption">
+              
+              <h2><em>COMPUTER STUDIES</em> AND <em>ENGINEERING</em><br>FACULTY</h2>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <section class="section courses" data-section="AllPrograms">
+    <div class="container-fluid">
+      <div class="row">
+        
+      <div class="col-md-12">
+          <div class="section-heading">
+            <h2 style="color:#f5a425;">Bachelor of Science in Computer Engineering (BSCpE)<br><br>Faculty Members</h2>
+          </div>
+        </div>
+
+      <div class="faculty">
+
+        <div class="container1">
+        <div class="container__img">
+          <img src="https://www.borjan.co.uk/admin/assets/images/testimonials/1559669856163447.png" alt="Professor" width="100%" height="100%">
+        </div>
+        <h3>
+          Eng. Monette M. Loy-a
+        </h3>
+        <h6> Chairperson, Computer Engineering <br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Gmail_Icon.svg/1280px-Gmail_Icon.svg.png" alt="gmail" style="width:5%"> monette.loya@jru.edu </h6>
+      </div>
+
+       <div class="container1">
+        <div class="container__img">
+          <img src="assets/images/male-professor.jpg" width="100%" height="100%">
+      </div>
+        <h3>
+         Eng. Jc Apduhan
+        </h3>
+        <h6> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Gmail_Icon.svg/1280px-Gmail_Icon.svg.png" alt="gmail" style="width:5%"> jc.apduhan@jru.edu </h6>
+      </div>
+
+      <div class="container1">
+        <div class="container__img">
+          <img src="https://www.borjan.co.uk/admin/assets/images/testimonials/1559669856163447.png" alt="Professor" width="100%" height="100%">
+      </div>
+        <h3>
+           Eng. Amor Ellares
+        </h3>
+        <h6> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Gmail_Icon.svg/1280px-Gmail_Icon.svg.png" alt="gmail" style="width:5%"> amor.ellares@jru.edu </h6>
+      </div>
+
+      <div class="container1">
+        <div class="container__img">
+          <img src="https://www.borjan.co.uk/admin/assets/images/testimonials/1559669856163447.png" alt="Professor" width="100%" height="100%">
+        </div>
+        <h3>
+          Eng. Barbara Ianne Embile
+        </h3>
+        <h6> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Gmail_Icon.svg/1280px-Gmail_Icon.svg.png" alt="gmail" style="width:5%"> barbaraianne.embile@jru.edu </h6>
+      </div>
+
+      <div class="container1">
+        <div class="container__img">
+          <img src="https://www.borjan.co.uk/admin/assets/images/testimonials/1559669856163447.png" alt="Professor" width="100%" height="100%">
+        </div>
+        <h3>
+          Eng. Rosalina Estacio
+        </h3>
+        <h6> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Gmail_Icon.svg/1280px-Gmail_Icon.svg.png" alt="gmail" style="width:5%"> rosalina.estacio@jru.edu </h6>
+      </div>
+
+      <div class="container1">
+        <div class="container__img">
+          <img src="https://www.borjan.co.uk/admin/assets/images/testimonials/1559669856163447.png" alt="Professor" width="100%" height="100%">
+        </div>
+        <h3>
+          Eng. Nataran Reza Nazarzadeh
+        </h3>
+        <h6> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Gmail_Icon.svg/1280px-Gmail_Icon.svg.png" alt="gmail" style="width:5%"> nataranreza.nazarzadeh@jru.edu </h6>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><i class="fa fa-copyright"></i> Copyright 2020 | Design by TechnoBoost</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+  <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          /*e.preventDefault();*/
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+</html>
